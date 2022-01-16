@@ -1,12 +1,15 @@
 ---
 layout: page
-title: submenus
-nav: true
+title: CV_drop
+nav: false
 dropdown: true
 children: 
+    - title: Curriculum Vitæ
+      permalink: /CV/
+    - title: divider
     - title: publications
       permalink: /publications/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: talks & posters
+      permalink: /talks/
 ---

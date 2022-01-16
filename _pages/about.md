@@ -2,23 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <b>Ph.D. student Bioinformatics</b> 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  
+  # address: >
+  #  <p>NDEF 06 / 598</p>
+  #  <p>Universitätsstraße 150</p>
+  #  <p>44801 Bochum, Germany</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm a data enthusiast, interested in deciphering hidden information, and combining them with findings from life sciences. My research focuses on RNA secondary structures and their regulatory roles in the cell. 
+
+To investigate RNA structures, I developed a pre-training approach which combines the thermodynamics model for RNA structure with state-of-the-art Deep Learning methods. I used the pre-training for [TermNN]({{ site.baseurl }}{% link _projects/1_TermNN.md %}), which provides Deep Learning models for the prediction of intrinsic transcription terminators in bacteria. 
+
+I also work with data from the global structure probing method [Lead-Seq]({{ site.baseurl }}{% link _projects/2_leadseq.md %}). Besides developing the analysis for Lead-Seq, I used the resulting Lead-Scores for the [identification of RNA thermometers]({{ site.baseurl }}{% link _projects/2_RNA_thermometers.md %}). Additionally, I contibuted to the [investigation of regulatory sRNAs](https://doi.org/10.1111/mmi.14695) with my knowledge about RNA sequencing. 
+
+Currently, I am a PhD student at the [Ruhr-University Bochum](https://www.mikrobiologie.ruhr-uni-bochum.de/mbio/mitarbeiter/brandenburg.html.en), where I'm closely cooperating with [Axel Mosig](http://www.bioinf.rub.de) from the Bioinformatics Group and [Franz Narberhaus](https://www.mikrobiologie.ruhr-uni-bochum.de/mbio/mitarbeiter/narberhaus.html.en) from the Microbial Biology Group. 
+
