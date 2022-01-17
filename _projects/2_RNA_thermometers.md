@@ -17,10 +17,10 @@ RNA thermometers can be identified with [Lead-Seq]({{ site.baseurl }}{% link _pr
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="ass/thermometer_icon_padded.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/thermometer_icon_padded.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="ass/thermometer_method_gross.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/thermometer_method_gross.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -37,10 +37,10 @@ To identify RNA thermometers from Lead-Seq data, Δscores are calculated from th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="ass/MWU2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/MWU2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="ass/rnat_experimental_validation.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/rnat_experimental_validation.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption"> Left: Comparison of Δlead-scores and Mann-Whitney-U test for ribosome binding sites in <i>Yersinia pseudotuberculosis</i> as identified with Lead-Seq, including novel RNA thermometers (pink). Right: Experimental validation of the novel RNA themometers. 
