@@ -2,7 +2,7 @@
 layout: page
 title: Lead-Seq
 description: Transcriptome-wide RNA structure probing with lead(II) ions.
-img: assets/img_lead/lead_icon.png
+img: assets/img/lead_icon.png
 importance: 2
 category: work
 ---
@@ -17,7 +17,7 @@ Lead-seq is a structure probing method for bacteria, which combines chemical str
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img_lead/lead_schematisch_breit2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/lead_schematisch_breit2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -32,13 +32,13 @@ For Lead-Seq, a bacterial culture is treated with lead(II)-acetate. Lead(II) ion
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img_lead/l25_distribution.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/l25_distribution.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img_lead/l37_distribution.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/l37_distribution.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img_lead/performance_at_cut_05.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/performance_at_cut_05.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

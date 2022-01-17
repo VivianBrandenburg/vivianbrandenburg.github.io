@@ -2,7 +2,7 @@
 layout: page
 title: Term-NN
 description: Inverse folding based pre-training for intrinsic transcription terminator identification.
-img: assets/img/termNN_icon2.jpg
+img: assets/img/termNN_icon.png
 importance: 1
 category: work
 ---
@@ -15,10 +15,10 @@ Code and data for this project are available on [GitHub](https://github.com/Vivi
 &nbsp;
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/terminator_structure2.jpg" title="terminator sctructure" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/terminator_structure.png" title="terminator sctructure" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/term_in_action2.jpg" title="termination in bacteria" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/termNN_icon_2.png" title="termination in bacteria" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
