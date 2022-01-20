@@ -7,7 +7,7 @@ importance: 2
 category: work
 ---
 
-Lead-seq is a structure probing method for bacteria, which combines chemical structure probing with high-throughput sequencing. It allows for the probing of RNA structures of entire transcriptomes at different conditions. The method was first published by [Twittenhoff, Brandenburg and Righetti et al.](https://doi.org/10.1093/nar/gkaa404) in 2020, which was also reported in [ScienceDaily](https://www.sciencedaily.com/releases/2020/06/200617145959.htm).  
+Lead-seq is a structure probing method for bacteria, which combines chemical structure probing with high-throughput sequencing. It allows for the probing of RNA structures of entire transcriptomes at different conditions. The method was first published by [Twittenhoff, Brandenburg and Righetti et al.](https://doi.org/10.1093/nar/gkaa404) in 2020, which was also reported in [ScienceDaily](https://www.sciencedaily.com/releases/2020/06/200617145959.htm). Code and Data for Lead-Seq are available in [GitHub](https://github.com/VivianBrandenburg/LeadSeq).
 
 <!--  -->
 <!-- todo: add git repo -->
