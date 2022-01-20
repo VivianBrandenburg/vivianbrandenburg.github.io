@@ -37,7 +37,7 @@ To identify RNA thermometers from Lead-Seq data, Δscores are calculated from th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/MWU2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/MWU3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/rnat_experimental_validation.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -47,4 +47,4 @@ To identify RNA thermometers from Lead-Seq data, Δscores are calculated from th
 </div>
 
 
-The Δscores and p-values from the Mann-Whitney-U tests around ribosome binding sites in *Yersinia pseudotuberculosis* are compared. About 80 transcripts have a negative Δscore and a significant p-value (green), indicating significant melting at higher temperatures. These 80 transcripts are good candidates for RNA thermometers. Of these, 4 are verified RNA thermometers from [Righetti et al., 2016](https://doi.org/10.1073/pnas.1523004113) (purple), and 2 are previously unknown RNA thermometers, verified in [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404) (pink).
+The Δscores and p-values from the Mann-Whitney-U tests around ribosome binding sites in *Yersinia pseudotuberculosis* are compared. About 80 transcripts have a negative Δscore and a significant p-value (green), indicating significant melting at higher temperatures. These 80 transcripts are good candidates for RNA thermometers. Of these, 3 are verified RNA thermometers from [Righetti et al., 2016](https://doi.org/10.1073/pnas.1523004113) (purple), and 2 are previously unknown RNA thermometers, verified in [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404) (pink).
