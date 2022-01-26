@@ -10,7 +10,7 @@ category: work
 
 RNA thermometers are temperature sensing structures, typically located at the 5'-end of RNAs. They impede translation at low temperatures by forming a stable secondary structure and blocking the ribosome binding site and the start codon. At high temperatures, they melt open, reveal the ribosome binding site, and the translation can take place.  
 
-RNA thermometers can be identified with [Lead-Seq]({{ site.baseurl }}{% link _projects/2_leadseq.md %}), as shown in [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404). Code and Data for the RNA thermometer identification with Lead-Seq are available in [GitHub](https://github.com/VivianBrandenburg/LeadSeq).
+RNA thermometers can be identified with [Lead-Seq]({{ site.baseurl }}{% link _projects/leadseq.md %}), as shown in [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404). Code and Data for the RNA thermometer identification with Lead-Seq are available in [GitHub](https://github.com/VivianBrandenburg/LeadSeq).
 
 &nbsp;
 
