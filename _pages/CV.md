@@ -38,11 +38,6 @@ nav: true
 |2011 -- 2014| | **University Leipzig** |
 |            | | **B.Sc. Biology** |
 |            | | Bachelor Thesis: *Study of the Nitrogen Acquisition of the Wheat Variety ’Akteur’.* |
-|            | |   |   
-|2007 -- 2011| | **University Leipzig** |
-|            | | **B.A. Political Sciences** |
-|            | | Bachelor Thesis: *Systematic Comparison of Emanuel Joseph Sieyès and John Locke.* |
-|            | |   |   
 
 
 
