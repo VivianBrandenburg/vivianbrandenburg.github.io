@@ -7,12 +7,24 @@ importance: 3
 category: work
 ---
 
-
-Simply enter a gene name to display the data, and zoom into the plots to get detailed views. Select which data are shown via the checkboxes, and highlight data by clicking on the legend.  
-<i> Currently only genes starting with 'TSS_6' are supported. More to come soon... </i>
+These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pseudotuberculosis* at 25°C and 37°C, published in [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404). To learn more about Lead-Seq and the data set, visit my [Lead-Seq project page]({{ site.baseurl }}{% link _projects/leadseq.md %}).
 
 <br>
-<div id="observablehq-viewof-gene_select-e0b5238a"></div>
+
+---
+
+**How to use these plots:**
+- **Enter a gene name** to select. *Currently only genes starting with 'TSS_6' are supported (e.g. TTS_61, TSS_646, TSS_688), more to come soon...*
+- **Click on the lines** to highlight data.
+-  **Scroll in** to get detailed views. *(Not available on mobile.)* 
+
+---
+
+
+  
+
+
+<p ><div style="color:black !important;" id="observablehq-viewof-gene_select-e0b5238a"></div></p>
 <div id="observablehq-viewof-panels-e0b5238a"></div>
 
 
@@ -32,4 +44,3 @@ new Runtime().module(define, name => {
 
 <br>
 
-To learn more about Lead-Seq, visit my [Lead-Seq project page]({{ site.baseurl }}{% link _projects/leadseq.md %}).
