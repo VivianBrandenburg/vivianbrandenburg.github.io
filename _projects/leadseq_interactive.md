@@ -21,26 +21,23 @@ These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pse
 ---
 
 
-  
-
-
-<p ><div style="color:black !important;" id="observablehq-viewof-gene_select-e0b5238a"></div></p>
-<div id="observablehq-viewof-panels-e0b5238a"></div>
-
-
-<div id="observablehq-plot-e0b5238a"></div>
-
+<div id="observablehq-viewof-gene_select-0e7550a7"></div>
+<div id="observablehq-viewof-panels-0e7550a7"></div>
+<div id="observablehq-plot-0e7550a7"></div>
+<div id="observablehq-download_button-0e7550a7" ></div>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/d/5b50224d2147c93d.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-e0b5238a"));
-  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-e0b5238a"));
-  if (name === "viewof gene_select") return new Inspector(document.querySelector("#observablehq-viewof-gene_select-e0b5238a"));
+  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-0e7550a7"));
+  if (name === "viewof gene_select") return new Inspector(document.querySelector("#observablehq-viewof-gene_select-0e7550a7"));
+  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-0e7550a7"));
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-0e7550a7"));
 });
 </script>
 
 
-<br>
-
+ 
+      
+   
