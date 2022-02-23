@@ -18,26 +18,37 @@ These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pse
 - **Click on the lines** to highlight data.
 -  **Scroll in** to get detailed views. *(Not available on mobile.)* 
 
+<br>
+
 ---
 
 
-<div id="observablehq-viewof-gene_select-0e7550a7"></div>
-<div id="observablehq-viewof-panels-0e7550a7"></div>
-<div id="observablehq-plot-0e7550a7"></div>
-<div id="observablehq-download_button-0e7550a7" ></div>
+
+
+
+
+
+
+
+
+<center> <span id="observablehq-field_text-96ce5e8b"></span> <span id="observablehq-button_update-96ce5e8b"></span> </center>
+<center id="observablehq-plot-96ce5e8b"></center>
+
+<center id="observablehq-viewof-panels-96ce5e8b"></center> 
+<span style="float: right" id="observablehq-download_button-96ce5e8b"> </span>
+
+
+---
+
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/d/5b50224d2147c93d.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-0e7550a7"));
-  if (name === "viewof gene_select") return new Inspector(document.querySelector("#observablehq-viewof-gene_select-0e7550a7"));
-  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-0e7550a7"));
-  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-0e7550a7"));
+  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-96ce5e8b"));
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-96ce5e8b"));
+  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-96ce5e8b"));
+  if (name === "button_update") return new Inspector(document.querySelector("#observablehq-button_update-96ce5e8b"));
+  if (name === "field_text") return new Inspector(document.querySelector("#observablehq-field_text-96ce5e8b"));
 });
 </script>
-
-
- 
-      
-   
