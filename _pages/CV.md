@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /CV/
-title: CV
-description: <b>Curriculum Vitæ of Vivian B Brandenburg</b>
+permalink: /cv/
+title: cv
+description: <b>Curriculum Vitæ of Vivian Brandenburg</b>
 nav: true
 ---
 
@@ -40,6 +40,7 @@ nav: true
 |            | | Bachelor Thesis: *Study of the Nitrogen Acquisition of the Wheat Variety ’Akteur’.* |
 
 
+<br>
 
 ### Teaching
 ---                        
