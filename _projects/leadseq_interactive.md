@@ -11,28 +11,32 @@ These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pse
 
 On this page, you can...
 
-- **enter a gene or transcript name** to change the data displayed data 
-  <span style="font-size:10pt">*(Currently only transcripts starting with 'TSS_6' are supported (e.g. TTS_61, TSS_646, TSS_688), more to come soon...)*</span> 
-- **click on the lines** to highlight
--  **scroll in** to get detailed views <span style="font-size:10pt">*(not available on touchscreens)*</span> 
-- **toggle plot parts** to easily compare data 
+- **Enter a transcript name** to change the data displayed data.
+- **Click on the lines** to highlight.
+-  **Scroll in** to get detailed views. <span style="font-size:10pt">*(not available on touchscreens)*</span> 
+- **Toggle plot parts** to easily compare data. 
 
 <br>
 
 
 
 
-<center> 
-<span id="observablehq-field_text-b986972f"></span>
-<span id="observablehq-button_update-b986972f"></span>
-<span id="observablehq-plot-b986972f"></span>
+
+<center>
+<span id="observablehq-textfield-3eba64a4" ></span><span id="observablehq-button_update-3eba64a4"></span>
+
+<div style="font-size:10pt; margin-top:10px" id="observablehq-feedbacktext_search-3eba64a4"></div>
+
+
+<span id="observablehq-plot-3eba64a4"></span>
 <br>
-<span style="font-size:11pt" id="observablehq-viewof-panels-b986972f"></span> 
- </center>
+<span style="font-size:11pt" id="observablehq-viewof-panels-3eba64a4"></span> 
+
+</center>
 
 
 
-<span style="float: right" id="observablehq-download_button-b986972f"> </span>
+<span style="float: right" id="observablehq-download_button-3eba64a4"> </span>
 
 <br>
 
@@ -43,7 +47,12 @@ On this page, you can...
 
 **Annotated Features:**
 
-<div id="observablehq-info_text-b986972f"></div>
+
+
+
+<div id="observablehq-info_text-3eba64a4"></div>
+
+
 
 
 
@@ -51,13 +60,18 @@ On this page, you can...
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/d/5b50224d2147c93d.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-b986972f"));
-  if (name === "button_update") return new Inspector(document.querySelector("#observablehq-button_update-b986972f"));
-  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-b986972f"));
-  if (name === "field_text") return new Inspector(document.querySelector("#observablehq-field_text-b986972f"));
-  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-b986972f"));
-  if (name === "info_text") return new Inspector(document.querySelector("#observablehq-info_text-b986972f"));
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-3eba64a4"));
+  if (name === "textfield") return new Inspector(document.querySelector("#observablehq-textfield-3eba64a4"));
+  if (name === "button_update") return new Inspector(document.querySelector("#observablehq-button_update-3eba64a4"));
+  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-3eba64a4"));
+  if (name === "feedbacktext_search") return new Inspector(document.querySelector("#observablehq-feedbacktext_search-3eba64a4"));
+  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-3eba64a4"));
+  if (name === "info_text") return new Inspector(document.querySelector("#observablehq-info_text-3eba64a4"));
 });
+
+
+
+document.getElementById("observablehq-textfield-3eba64a4").style.display = "inline-block";
+
+
 </script>
-
-
