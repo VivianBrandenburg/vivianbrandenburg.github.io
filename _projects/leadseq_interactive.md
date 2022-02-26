@@ -23,26 +23,24 @@ On this page, you can...
 
 
 <center>
-<span id="observablehq-textfield-3eba64a4" ></span><span id="observablehq-button_update-3eba64a4"></span>
+<span id="observablehq-textfield-93525b8f" ></span><span id="observablehq-button_update-93525b8f"></span>
 
-<div style="font-size:10pt; margin-top:10px" id="observablehq-feedbacktext_search-3eba64a4"></div>
+<div style="font-size:10pt; margin-top:10px" id="observablehq-feedbacktext_search-93525b8f"></div>
 
 
-<span id="observablehq-plot-3eba64a4"></span>
+<span id="observablehq-plot-93525b8f"></span>
 <br>
-<span style="font-size:11pt" id="observablehq-viewof-panels-3eba64a4"></span> 
+<span style="font-size:11pt" id="observablehq-viewof-panels-93525b8f"></span> 
 
 </center>
 
 
 
-<span style="float: right" id="observablehq-download_button-3eba64a4"> </span>
+<span style="float: right" id="observablehq-download_button-93525b8f"> </span>
 
 <br>
 
 ---
-
-<br>
 
 
 **Annotated Features:**
@@ -50,7 +48,24 @@ On this page, you can...
 
 
 
-<div id="observablehq-info_text-3eba64a4"></div>
+<div id="observablehq-info_text-93525b8f"></div>
+
+
+
+<br>
+
+<br>
+
+## Identification of RNA-Thermometers
+
+This plot shows the Δscores and p-adjust values around the Shine-Dalgarno-Sequence (SDS). Transcripts with a negative Δscore and a very low p-adjust are considered good RNA-thermometer (RNAT) candidates. RNATs confirmed by [[1]: Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404) are maked in orange, and those confirmed by [[2]: Righetti et al., 2016](https://doi.org/10.1073/pnas.1523004113) are marked in yellow.
+
+<div id="observablehq-SDS_plot-93525b8f"></div>
+
+
+
+
+
 
 
 
@@ -60,18 +75,16 @@ On this page, you can...
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/d/5b50224d2147c93d.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-3eba64a4"));
-  if (name === "textfield") return new Inspector(document.querySelector("#observablehq-textfield-3eba64a4"));
-  if (name === "button_update") return new Inspector(document.querySelector("#observablehq-button_update-3eba64a4"));
-  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-3eba64a4"));
-  if (name === "feedbacktext_search") return new Inspector(document.querySelector("#observablehq-feedbacktext_search-3eba64a4"));
-  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-3eba64a4"));
-  if (name === "info_text") return new Inspector(document.querySelector("#observablehq-info_text-3eba64a4"));
+  if (name === "plot") return new Inspector(document.querySelector("#observablehq-plot-93525b8f"));
+  if (name === "button_update") return new Inspector(document.querySelector("#observablehq-button_update-93525b8f"));
+  if (name === "textfield") return new Inspector(document.querySelector("#observablehq-textfield-93525b8f"));
+  if (name === "viewof panels") return new Inspector(document.querySelector("#observablehq-viewof-panels-93525b8f"));
+  if (name === "feedbacktext_search") return new Inspector(document.querySelector("#observablehq-feedbacktext_search-93525b8f"));
+  if (name === "download_button") return new Inspector(document.querySelector("#observablehq-download_button-93525b8f"));
+  if (name === "info_text") return new Inspector(document.querySelector("#observablehq-info_text-93525b8f"));
+  if (name === "SDS_plot") return new Inspector(document.querySelector("#observablehq-SDS_plot-93525b8f"));
 });
 
-
-
-document.getElementById("observablehq-textfield-3eba64a4").style.display = "inline-block";
-
+document.getElementById("observablehq-textfield-93525b8f").style.display = "inline-block";
 
 </script>
