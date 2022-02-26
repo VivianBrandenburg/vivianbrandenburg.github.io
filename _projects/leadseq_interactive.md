@@ -28,19 +28,19 @@ On this page, you can...
 <div style="font-size:10pt; margin-top:10px" id="observablehq-feedbacktext_search-93525b8f"></div>
 
 
-<span id="observablehq-plot-93525b8f"></span>
-<br>
-<span style="font-size:11pt" id="observablehq-viewof-panels-93525b8f"></span> 
+<div   id="observablehq-plot-93525b8f"></div>
 
 </center>
 
-
-
-<span style="float: right" id="observablehq-download_button-93525b8f"> </span>
+<div style="font-size:11pt; float: left">Toggle which plot panels you want to see:</div> <div style="font-size:11pt; float: right" id="observablehq-viewof-panels-93525b8f"></div> 
 
 <br>
 
----
+<br>
+
+ <span style="float: right" id="observablehq-download_button-93525b8f"> </span>
+
+<br>
 
 
 **Annotated Features:**
@@ -60,9 +60,11 @@ On this page, you can...
 
 This plot shows the Δscores and p-adjust values around the Shine-Dalgarno-Sequence (SDS). Transcripts with a negative Δscore and a very low p-adjust are considered good RNA-thermometer (RNAT) candidates. RNATs confirmed by [[1]: Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404) are maked in orange, and those confirmed by [[2]: Righetti et al., 2016](https://doi.org/10.1073/pnas.1523004113) are marked in yellow.
 
-<div id="observablehq-SDS_plot-93525b8f"></div>
 
+<center>
+<div style="margin-top:30px" id="observablehq-SDS_plot-93525b8f"></div>
 
+</center>
 
 
 
