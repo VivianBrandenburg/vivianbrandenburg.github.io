@@ -12,7 +12,6 @@ These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pse
 On this page, you can...
 
 - **Enter a transcript name** to change the data displayed data.
-- **Click on the lines** to highlight.
 -  **Scroll in** to get detailed views. <span style="font-size:10pt">*(not available on touchscreens)*</span> 
 - **Toggle plot parts** to easily compare data. 
 
