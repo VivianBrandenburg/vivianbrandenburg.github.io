@@ -7,9 +7,9 @@ importance: 3
 category: work
 ---
 
-These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pseudotuberculosis* at 25°C and 37°C, published in [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404). To learn more about Lead-Seq and the data set, visit my [Lead-Seq project page]({{ site.baseurl }}{% link _projects/leadseq.md %}).  
+These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pseudotuberculosis* at 25°C and 37°C, published by [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404). To learn more about Lead-Seq and the data set, visit my [Lead-Seq project page]({{ site.baseurl }}{% link _projects/leadseq.md %}).  
 
-On this page, you can...
+In the plots below, you can explore the Lead-Seq data set:
 
 - **Enter a transcript name** to change the data displayed data.
 -  **Scroll in** to get detailed views. <span style="font-size:10pt">*(not available on touchscreens)*</span> 
@@ -57,7 +57,7 @@ On this page, you can...
 
 ## Identification of RNA-Thermometers
 
-This plot shows the Δscores and p-adjust values around the Shine-Dalgarno-Sequence (SDS). Transcripts with a negative Δscore and a very low p-adjust are considered good RNA-thermometer (RNAT) candidates. RNATs confirmed by [[1]: Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404) are maked in orange, and those confirmed by [[2]: Righetti et al., 2016](https://doi.org/10.1073/pnas.1523004113) are marked in yellow.
+This plot shows the Δscores and p-adjust values around the Shine-Dalgarno-Sequence (SDS). Transcripts with a negative Δscore and a low p-adjust are considered good RNA-thermometer (RNAT) candidates. RNATs confirmed by [[1]: Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404) are marked in orange, RNATs confirmed by [[2]: Righetti et al., 2016](https://doi.org/10.1073/pnas.1523004113) are marked in yellow.
 
 
 <center>
