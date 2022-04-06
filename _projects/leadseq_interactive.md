@@ -37,7 +37,7 @@ These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pse
 
 
 
-<div id="observablehq-info_text-93525b8f"></div>
+<div style="font-size:9pt" id="observablehq-info_text-93525b8f"></div>
 
 
 
