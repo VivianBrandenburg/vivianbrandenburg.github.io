@@ -9,15 +9,9 @@ category: work
 
 These plots illustrate data from Lead-Seq RNA structure probing on *Yersinia pseudotuberculosis* at 25°C and 37°C, published by [Twittenhoff, Brandenburg and Righetti et al., 2020](https://doi.org/10.1093/nar/gkaa404). To learn more about Lead-Seq and the data set, visit my [Lead-Seq project page]({{ site.baseurl }}{% link _projects/leadseq.md %}).  
 
-In the plots below, you can explore the Lead-Seq data set:
 
-- **Enter a transcript name** to change the data displayed data.
--  **Scroll in** to get detailed views. <span style="font-size:10pt">*(not available on touchscreens)*</span> 
-- **Toggle plot parts** to easily compare data. 
 
 <br>
-
-
 
 
 
@@ -27,15 +21,11 @@ In the plots below, you can explore the Lead-Seq data set:
 <div style="font-size:10pt; margin-top:10px" id="observablehq-feedbacktext_search-93525b8f"></div>
 
 
-<div   id="observablehq-plot-93525b8f"></div>
+<div style="font-size:10pt; margin-left:100px" id="observablehq-viewof-panels-93525b8f"></div> 
 
+<div   id="observablehq-plot-93525b8f"></div>
 </center>
 
-<div style="font-size:11pt; float: left">Toggle which plot panels you want to see:</div> <div style="font-size:11pt; float: right" id="observablehq-viewof-panels-93525b8f"></div> 
-
-<br>
-
-<br>
 
  <span style="float: right" id="observablehq-download_button-93525b8f"> </span>
 
