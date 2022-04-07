@@ -26,5 +26,5 @@ To investigate RNA structures, I developed a pre-training approach which combine
 
 I also work with data from the global structure probing method [Lead-Seq]({{ site.baseurl }}{% link _projects/leadseq.md %}). Besides developing the analysis for Lead-Seq, I used the resulting Lead-Scores for the [identification of RNA thermometers]({{ site.baseurl }}{% link _projects/RNA_thermometers.md %}). Additionally, I contibuted to the [investigation of regulatory sRNAs](https://doi.org/10.1111/mmi.14695) with my knowledge about RNA sequencing. 
 
-Currently, I am a PhD student at the [Ruhr-University Bochum](https://www.mikrobiologie.ruhr-uni-bochum.de/mbio/mitarbeiter/brandenburg.html.en), where I'm closely cooperating with [Axel Mosig](http://www.bioinf.rub.de) from the Bioinformatics Group and [Franz Narberhaus](https://www.mikrobiologie.ruhr-uni-bochum.de/mbio/mitarbeiter/narberhaus.html.en) from the Microbial Biology Group. 
+Currently, I am a PhD student at the [Ruhr-University Bochum](https://www.mikrobiologie.ruhr-uni-bochum.de/mbio/mitarbeiter/brandenburg.html.en), where I'm working with [Axel Mosig](http://www.bioinf.rub.de) from the Bioinformatics Group and [Franz Narberhaus](https://www.mikrobiologie.ruhr-uni-bochum.de/mbio/mitarbeiter/narberhaus.html.en) from the Microbial Biology Group. 
 
