@@ -10,11 +10,15 @@ nav: true
 ---
                               
 
+|since 2023  |&emsp;| **Ruhr-University Bochum** |
+|            | | **Postdoctoral Researcher**
+|            | | Bioinformatics Group
+|            | |   |   
 |since 2019  |&emsp;| **Ruhr-University Bochum** |
-|            | | **Ph.D. Student**
+|            | | **Doctoral Student**
 |            | | Research Groups: Microbial Biology \| Bioinformatics
 |            | | Advisors: Franz Narberhaus \| Axel Mosig |
-|            | |   |          
+|            | |   |   
 |2018 -- 2019| | **Ruhr-University Bochum** |
 |            | | **Research Assistant** |
 |            | |Research Group: Theoretical Computer Science |      
@@ -46,7 +50,7 @@ nav: true
 ---                        
 
 |since 2019  |&emsp;| **A-Module Bioinformatics** |
-|            | | Supervision of course day 'Analysis of genome-wide RNA structure probing data' |
+|            | | Supervision of course day s 'RNA structure prediction' & 'Analysis of genome-wide RNA structure probing data'|
 |            | | *Ruhr-University Bochum, Bioinformatics*|
 |            | |   | 
 |since 2019  | | **A-Module Microbiology and Biotechnology** |
