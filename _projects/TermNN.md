@@ -26,7 +26,6 @@ The work was [published in PLOS Comp. Biol.](https://journals.plos.org/ploscompb
 </div>
 
 
-
 Intrinsic transcription terminators are RNA structures, which form at the 3'-end of nascent RNAs. They consist of a GC-rich stem structure, framed with an A-rich region (A-tail) and a U-rich sequence motif (U-tail). At the end of a transcribed RNA, the terminator forms a stable hairpin, which causes the RNA Polymerase to pause. At this time, the U-tail of the RNA weakly binds to the DNA, allowing the RNA to escape, which terminates the transcription. 
 
 
