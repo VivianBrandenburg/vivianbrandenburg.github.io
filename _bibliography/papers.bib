@@ -8,7 +8,11 @@
     author = {Brandenburg, Vivian B},
     title = {Investigation of functional RNA structures using deep learning and experiment-guided computational approaches},
     journal = {Doctoral dissertation, Ruhr University Bochum},
-    abstract = {},
+    abstract = {
+    	RNA structures perform a plethora of essential functions in the cell, many of which specifically regulate transcription and translation. For example, structures such as RNA thermometers enable fine-tuning of translation of individual transcripts, while structured sRNAs enable rapid global adjustment of translation via regulatory cascades. To understand cellular processes, deciphering RNA structures is crucial, making the study of RNA structure an important component of current biology and bioinformatics.
+        RNA structure probing provides the opportunity to study RNA conformations in the cell. In this work, we presented Lead-Seq, a new approach for global in vivo structure mapping. It is based on the ability of lead(II)-ions to rapidly enter cells and cleave RNA depending on its pairing status. The approach was used to compare the in vivo structurome of Yersinia pseudotuberculosis at different temperatures. A new method was developed to identify previously unknown RNA thermometer candidates from the comparative study, selected candidates of which were validated with reporter gene studies.
+		Methods for predicting RNA structures are a second key element for the study of RNA folding. In order to correctly predict the structure in its natural environment, one of the requirements is to consider sequence motifs. These can recruit proteins that modify the thermodynamically optimal conformation. This work presented a study that tested different deep learning topologies and input types for their ability to predict sequence and structure motifs on the example of intrinsic transcription terminators. Furthermore, a pre-training approach was introduced, that integrates the established thermodynamic model into deep learning methods via inverse folding. The pre-training approach provides the ability to infer features from a small number of data points, allowing training on RNA families with only few known structures. The approach also provides a new method to exploit both the knowledge advantage of algorithmic approaches as well as the capability of deep learning methods to deal with uncertainty.
+  },
     date = {2023}
 }
 
@@ -18,16 +22,15 @@
 @article{10.1093/nar/gkaa404,
     author = {Brandenburg, Vivian B and Narberhaus, Franz and Mosig, Axel},
     title = {Inverse folding based pre-training for the reliable identification of intrinsic transcription terminators},
-    journal = {PLOS Comp Computational Biology},
-    volume = {48},
-    number = {12},
-    pages = {e71-e71},
+    journal = {PLOS Computational Biology},
+    volume = {18},
+    number = {7},
+    pages = {e1010240},
     date = {2022},
     abstract = {It is well-established that neural networks can predict or identify structural motifs of non-coding RNAs (ncRNAs). Yet, the neural network based identification of RNA structural motifs is limited by the availability of training data that are often insufficient for learning features of specific ncRNA families or structural motifs. Aiming to reliably identify intrinsic transcription terminators in bacteria, we introduce a novel pre-training approach that uses inverse folding to generate training data for predicting or identifying a specific family or structural motif of ncRNA. We assess the ability of neural networks to identify secondary structure by systematic in silico mutagenesis experiments. In a study to identify intrinsic transcription terminators as functionally well-understood RNA structural motifs, our inverse folding based pre-training approach significantly boosts the performance of neural network topologies, which outperform previous approaches to identify intrinsic transcription terminators. Inverse-folding based pre-training provides a simple, yet highly effective way to integrate the well-established thermodynamic energy model into deep neural networks for identifying ncRNA families or motifs. The pre-training technique is broadly applicable to a range of network topologies as well as different types of ncRNA families and motifs.},
     doi = {10.1371/journal.pcbi.1010240},
     url = {https://doi.org/10.1371/journal.pcbi.1010240},
-    eprint = {},
-    press = {}
+    press = {https://news.rub.de/english/press-releases/2022-07-08-bioinformatics-artificial-intelligence-folds-rna-molecules}
 }
 
 
