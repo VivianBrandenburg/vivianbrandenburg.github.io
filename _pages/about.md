@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   
   # address: >
-  #  <p>NDEF 06 / 598</p>
-  #  <p>Universitätsstraße 150</p>
+  #  <p>ProDi E3/233</p>
+  #  <p>Gesundheitscampus 4</p>
   #  <p>44801 Bochum, Germany</p>
 
 news: false  # includes a list of news items
