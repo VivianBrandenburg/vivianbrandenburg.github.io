@@ -69,8 +69,10 @@ stackoverflow_id: #your stackoverflow id
 
 rss_icon: false
 
+
+
 contact_note: >
- <a href="http://www.bioinf.rub.de/members/index.html.en</a>
+ <a href="http://www.bioinf.rub.de/members/index.html.en">Office: ProDi E3/233, Ruhr-University Bochum</a>
 
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
