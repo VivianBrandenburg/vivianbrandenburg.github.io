@@ -27,3 +27,4 @@ I developed a pre-training approach which combines the thermodynamics model for 
 Additionally, I worked with data from the global structure probing method [Lead-Seq]({{ site.baseurl }}{% link _projects/leadseq.md %}) in the [Microbiology Group](https://www.mikrobiologie.ruhr-uni-bochum.de/index.html.de) of Franz Narberhaus. Besides developing the analysis for Lead-Seq, I used the resulting Lead-Scores for the [identification of RNA thermometers]({{ site.baseurl }}{% link _projects/RNA_thermometers.md %}). I also contibuted to the [investigation of regulatory sRNAs](https://doi.org/10.1111/mmi.14695) with my knowledge about RNA sequencing. 
 
 Recently I began my Postdoc in the [Bioinformatics Group](http://www.bioinf.rub.de/) of Axel Mosig at the Ruhr-University Bochum. 
+
