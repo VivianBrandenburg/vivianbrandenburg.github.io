@@ -1,5 +1,15 @@
----
----
+
+@article{lysr_schmidt,
+author = {Schmidt, Janka J and Remme, Donata C L E and Eisfeld, Jessica and Brandenburg, Vivian B and Bille, Hannah and Narberhaus, Franz},
+title = {The LysR-type transcription factor LsrB regulates beta-lactam resistance in Agrobacterium tumefaciens},
+journal = {Molecular Microbiology},
+date = {2023},
+doi = {doi.org/10.1111/mmi.15191},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/mmi.15191},
+abstract = {Agrobacterium tumefaciens is a plant pathogen, broadly known as the causal agent of the crown gall disease. The soil bacterium is naturally resistant to beta-lactam antibiotics by utilizing the inducible beta-lactamase AmpC. Our picture on the condition-dependent regulation of ampC expression is incomplete. A known regulator is AmpR controlling the transcription of ampC in response to unrecycled muropeptides as a signal for cell wall stress. In our study, we uncovered the global transcriptional regulator LsrB as a critical player acting upstream of AmpR. Deletion of lsrB led to severe ampicillin and penicillin sensitivity, which could be restored to wild-type levels by lsrB complementation. By transcriptome profiling via RNA-Seq and qRT-PCR and by electrophoretic mobility shift assays, we show that ampD coding for an anhydroamidase involved in peptidoglycan recycling is under direct negative control by LsrB. Controlling AmpD levels by the LysR-type regulator in turn impacts the cytoplasmic concentration of cell wall degradation products and thereby the AmpR-mediated regulation of ampC. Our results substantially expand the existing model of inducible beta-lactam resistance in A. tumefaciens by establishing LsrB as higher-level transcriptional regulator.}
+}
+
+
 
 
 
@@ -9,36 +19,10 @@
     title = {Investigation of functional RNA structures using deep learning and experiment-guided computational approaches},
     journal = {Doctoral Thesis, Ruhr University Bochum},
     date = {2023},
-    abstract = {
-    RNA structures perform a plethora of essential functions in the cell, many of which
-    specifically regulate transcription and translation. For example, structures such as
-    RNA thermometers enable fine-tuning of translation of individual transcripts, while
-    structured sRNAs enable rapid global adjustment of translation via regulatory cascades.
-    To understand cellular processes, deciphering RNA structures is crucial, making the
-    study of RNA structure an important component of current biology and bioinformatics.
+    abstract = { RNA secondary structures fulfill diverse regulatory functions in the cell. Their investigation is therefore key to understanding biological processes. The Lead-Seq method established here makes an important contribution to this by enabling transcriptome-wide mapping of RNA secondary structures in vivo. Another method presented here complements the in silico prediction of RNA structures. In an inverse folding based pre-training approach, deep learning methods are enhanced with prior knowledge from the thermodynamic model. This enables the inference of features from only a few data points, as shown in the example of transcription terminators. Last, a novel quartet loss is introduced that continues the integration of existing knowledge in deep learning methods. The trained models reproduce a known phylogeny and can be used to identify which features evolve along the given tree.},
+    doi = {10.13154/294-10571},
+    url = {https://doi.org/10.13154/294-10571}
     
-    RNA structure probing provides the opportunity to study RNA conformations in
-    the cell. In this work, we presented Lead-Seq, a new approach for global in vivo struc-
-    ture mapping. It is based on the ability of lead(II)-ions to rapidly enter cells and
-    cleave RNA depending on its pairing status. The approach was used to compare the
-    in vivo structurome of Yersinia pseudotuberculosis at different temperatures. A new
-    method was developed to identify previously unknown RNA thermometer candidates
-    from the comparative study, selected candidates of which were validated with reporter
-    gene studies.
-    
-    Methods for predicting RNA structures are a second key element for the study of
-    RNA folding. In order to correctly predict the structure in its natural environment,
-    one of the requirements is to consider sequence motifs. These can recruit proteins that
-    modify the thermodynamically optimal conformation. This work presented a study
-    that tested different deep learning topologies and input types for their ability to predict
-    sequence and structure motifs on the example of intrinsic transcription terminators.
-    Furthermore, a pre-training approach was introduced, that integrates the established
-    thermodynamic model into deep learning methods via inverse folding. The pre-training
-    approach provides the ability to infer features from a small number of data points,
-    allowing training on RNA families with only few known structures. The approach
-    also provides a new method to exploit both the knowledge advantage of algorithmic
-    approaches as well as the capability of deep learning methods to deal with uncertainty.
-    }
 }
 
 
@@ -98,7 +82,7 @@ date = {2021},
 
 @article{master_brandenburg,
   author  = {Brandenburg, Vivian B},
-  journal = {Master Thesis, Ruhr-University Bochum},
+  journal = {Master Thesis, Ruhr University Bochum},
   title   = {Systematic Comparison of RNA Structure Probing Data},
   date    = {2019},
   abstract = {Many bacterial pathogens are known to adjust their life style upon being exposed to diverse
