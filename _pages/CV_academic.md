@@ -54,10 +54,11 @@ toc: true
 <br>
 ### Publications
 ---
+
 <div class="publications">
 
 {% for y in page.years %}
-  <h2 class="year_unfancy">{{y}}</h2>
+<div class="unfancy_year">{{y}}</div>
   {% bibliography --file papers --query @*[year={{y}}]* %}
 {% endfor %}
 
@@ -73,7 +74,7 @@ toc: true
 <div class="publications">
 
 {% for y in page.years_talks %}
-  <h2 class="year_unfancy">{{y}}</h2>
+  <div class="unfancy_year">{{y}}</div>
   {% bibliography -f talks -q @*[year={{y}}]* %}
 {% endfor %}
 
@@ -87,7 +88,7 @@ toc: true
 <div class="publications">
 
 {% for y in page.years_posters %}
-  <h2 class="year_unfancy">{{y}}</h2>
+<div class="unfancy_year">{{y}}</div>
   {% bibliography -f posters -q @*[year={{y}}]* %}
 {% endfor %}
 

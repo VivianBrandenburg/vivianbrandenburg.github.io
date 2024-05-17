@@ -404,21 +404,17 @@ footer.sticky-bottom {
   }
 
   h2.year {
-    color: var(--global-theme-color);
-    border-top: 1px solid var(--global-hover-color);
+    color: var(--year-color);
+    border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 1rem;
     margin-bottom: -2rem;
     text-align: left;
           font-size: 1.5rem;
   }
-  
-  h2.year_unfancy {
-    padding-top: 1rem;
-    margin-top: 1rem;
-    margin-bottom: -2rem;
-    text-align: left;
-	 font-size: 0.875rem !important;
+
+  unfancy_year {
+	 font-size: 0.875rem;
   }
  
   ol.bibliography {
@@ -429,7 +425,7 @@ footer.sticky-bottom {
 
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
