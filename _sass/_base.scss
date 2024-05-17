@@ -404,14 +404,21 @@ footer.sticky-bottom {
   }
 
   h2.year {
-    color: var(--year-color);
-    // uncomment for lines between entries
-   // border-top: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    border-top: 1px solid var(--global-hover-color);
     padding-top: 1rem;
     margin-top: 1rem;
     margin-bottom: -2rem;
     text-align: left;
           font-size: 1.5rem;
+  }
+  
+  h2.year_unfancy {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    text-align: left;
+          font-size: 0.875rem;
   }
  
   ol.bibliography {
@@ -578,3 +585,10 @@ html.transition *:after {
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
+
+// TOC
+
+.section-nav {
+  list-style: none;
+}
+

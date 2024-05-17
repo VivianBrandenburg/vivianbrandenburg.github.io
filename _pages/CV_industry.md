@@ -3,6 +3,8 @@ layout: page
 permalink: /CV_industry/
 nav: false
 nav_order: 4
+toc:
+  sidebar: left
 ---
 
 

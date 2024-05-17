@@ -1,16 +1,18 @@
 ---
 layout: page
 permalink: /CV_academic/
-title: cv
-description: <b>Curriculum Vitæ of Vivian Brandenburg</b>
+title: Curriculum Vitae
 nav: false
 nav_order: 4
 years_talks: [2023, 2022, 2021, 2020]
 years_posters: [2023, 2021, 2020]
 years: [2024, 2023, 2022, 2021, 2020, 2019]
+all_years: [2020,2021,2022,2023,2024,2025]
+toc: true
 ---
 
-### Professional Experience
+
+### Professional Career 
 ---
 
 | &emsp;    &emsp;  &emsp;  &emsp;  &emsp;  &emsp; &emsp; &thinsp; | &emsp;                                                                   |
@@ -31,13 +33,10 @@ years: [2024, 2023, 2022, 2021, 2020, 2019]
 |                                                         | Research Group: Science-Policy-Interface                                 |
 
 <br>
-
-
-
 ### Education
 ---
 
-| &emsp;    &emsp;  &emsp;  &emsp;  &emsp;  &emsp; &emsp; | &emsp;                                                                                                                  |
+| &emsp;    &emsp;  &emsp;  &emsp;  &emsp;  &emsp; &emsp;   &emsp; &emsp; | &emsp;                                                                                                                  |
 | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | 2023                                                    | **Doctoral Degree**, Ruhr University Bochum                                                                             |
 |                                                         | Thesis: *Investigation of functional RNA structures using deep learning and experiment-guided computational approaches* |
@@ -48,54 +47,53 @@ years: [2024, 2023, 2022, 2021, 2020, 2019]
 | 2014 -- 2017                                            | **M.Sc. Biology**, Martin Luther University Halle-Wittenberg                                                            |
 |                                                         | Specialization in Crops Science                                                                                         |
 |                                                         |                                          |                                                                                                                         |
-| 2011 -- 2014                                            | **B.Sc. Biology** , Leipzig University                                                                                  |
+|  2011 -- 2014                                            | **B.Sc. Biology** , Leipzig University                                                                                  |
 |                                                         | Bachelor Thesis: *Study of the Nitrogen Acquisition of the Wheat Variety ’Akteur’.*                                     |
 
+
 <br>
-
-
 ### Publications
-
+---
 <div class="publications">
 
 {% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year_unfancy">{{y}}</h2>
   {% bibliography --file papers --query @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
 
+
 <br>
 
+
+
 ### Talks
+---
 <div class="publications">
 
 {% for y in page.years_talks %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year_unfancy">{{y}}</h2>
   {% bibliography -f talks -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
 
 
-&nbsp;
-
-&nbsp;
-
-
-### Posters
+<br>
+### Posters {#my-subsection}
+---
 
 <div class="publications">
 
 {% for y in page.years_posters %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year_unfancy">{{y}}</h2>
   {% bibliography -f posters -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
 
-
-
+<br>
 ### Teaching
 ---                        
 
