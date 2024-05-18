@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Inverse folding based pre-training
-description: for the reliable identification of intrinsic transcription terminators identification.
+description: Adding to the toolbox for deep leanring of RNA structures
 img: assets/img/termNN_icon.png
-importance: 1
+importance: 2
 category: work
 ---
 

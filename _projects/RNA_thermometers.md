@@ -1,9 +1,9 @@
 ---
 layout: page
 title: RNA thermometers
-description: Detection of thermo-sensing RNA structures with Lead-Seq.
+description: Detection of thermo-sensing RNA structures with Lead-Seq
 img: assets/img/thermometer_icon.png
-importance: 3
+importance: 4
 category: work
 ---
 

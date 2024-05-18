@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Lead-Seq interactive
-description: Explore the Lead-Seq data set.
+description: Explore the Lead-Seq data set
 img: assets/img/lead_seq_interactive.png
-importance: 3
+importance: 4
 category: work
 ---
 

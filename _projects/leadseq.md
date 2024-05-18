@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Lead-Seq
-description: Transcriptome-wide RNA structure probing with lead(II) ions.
+description: Transcriptome-wide RNA structure probing
 img: assets/img/lead_icon.png
-importance: 2
+importance: 3
 category: work
 ---
 
