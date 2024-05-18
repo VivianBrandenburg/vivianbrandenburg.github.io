@@ -404,8 +404,8 @@ footer.sticky-bottom {
   }
 
   h2.year {
-    color: var(--year-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    //border-top: 1px solid var(--global-hover-color);
     padding-top: 1rem;
     margin-top: 1rem;
     margin-bottom: -2rem;
@@ -420,12 +420,14 @@ footer.sticky-bottom {
   ol.bibliography {
     list-style: none;
     padding: 0;
-    margin-top: 0;
+    margin-top: 0.5rem;
+    
 
 
 
     li {
-      margin-bottom: 0.5rem;
+	margin-top: -2rem;
+      margin-bottom: 2.5rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -506,7 +508,7 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        //border: dashed 1px var(--global-bg-color);
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
