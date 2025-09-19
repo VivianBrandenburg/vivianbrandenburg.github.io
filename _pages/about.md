@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <b>Ph.D. student Bioinformatics</b> 
+description: <b>Bioinformatician</b> 
 
 profile:
   align: right
@@ -14,13 +14,12 @@ profile:
   #  <p>44801 Bochum, Germany</p>
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 
 
-I'm a data enthusiast, interested in deciphering hidden information and combining them with findings from life sciences. I am currently investigating the inference of phylogenetic features with deep learning at the [Ruhr University Bochum](http://www.bioinf.rub.de/).
+I'm a bioinformatician passionate about uncovering hidden patterns in complex biological data and translating them into actionable insights for experimental research. I am currently working at Resolve Biosciences, contributing to the development of spatial transcriptomics technologies. I program prototype instruments and apply computational pipelines to improve workflows and ensure reproducibility.
 
-
-My previous projects focused on RNA secondary structures and deep learning approaches to decipher their regulatory roles in the cell. I developed a [pre-training approach]({{ site.baseurl }}{% link _projects/TermNN.md %}) which combines the thermodynamics model for RNA structure with machine learning methods to predict intrinsic transcription terminators in bacteria. Additionally, I developed the global structure probing method [Lead-Seq]({{ site.baseurl }}{% link _projects/leadseq.md %}) and used it for the identification of RNA thermometers. I also contributed to the [investigation of regulatory sRNAs](https://doi.org/10.1111/mmi.14695) with my knowledge about RNA sequencing. 
+In my previous work at the Bioinformatics Group of the Ruhr University Bochum, I designed and implemented deep learning models to extract phylogenetic insights. There, I also developed methods integrating thermodynamics models with deep learning to predict RNA secondary structures. Before that, I was part of the Microbial Biology Group in Bochum, where I developed the computational pipeline for Lead-Seq, combining high-throughput sequencing data analysis with bioinformatic workflows to probe RNA structures at cellular scales. Leveraging my expertise in RNA sequencing, I contributed to interdisciplinary projects investigating regulatory networks controlled by small RNAs, combining computational analysis with biological interpretation.

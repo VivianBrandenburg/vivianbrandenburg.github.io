@@ -4,9 +4,9 @@ permalink: /CV_academic/
 title: Curriculum Vitae
 nav: false
 nav_order: 4
-years_talks: [2023, 2022, 2021, 2020]
+years_talks: [2024, 2023, 2022, 2021, 2020]
 years_posters: [2023, 2021, 2020]
-years: [2024, 2023, 2022, 2021, 2020, 2019]
+years: [2025, 2024, 2023, 2022, 2021, 2020, 2019]
 all_years: [2020,2021,2022,2023,2024,2025]
 toc: true
 ---
@@ -17,7 +17,10 @@ toc: true
 
 | &emsp;    &emsp;  &emsp;  &emsp;  &emsp;  &emsp; &emsp; &thinsp; | &emsp;                                                                   |
 | ------------------------------------------------------- | ------------------------------------------------------------------------ |
-| since 2023                                              | **Postdoctoral Researcher**, Ruhr University Bochum                      |
+| since 2025                                              | **Scientist Computational Biology**, Resolve Biosciences                 |
+|                                                         | System Integration                                                       |
+|                                                         |                                                                          |
+| 2023 -- 2024                                            | **Postdoctoral Researcher**, Ruhr University Bochum                      |
 |                                                         | Bioinformatics Group                                                     |
 |                                                         |                                                                          |
 | 2019 -- 2023                                            | **Doctoral Researcher**, Ruhr University Bochum                          |
@@ -27,10 +30,7 @@ toc: true
 |                                                         | Research Group: Theoretical Computer Science                             |
 |                                                         |                                                                          |
 | 2014                                                    | **Teaching Assistant**, Leipzig University                               |
-|                                                         | Research Group: Plant Physiology                                         |
-|                                                         |                                                                          |
-| 2014                                                    | **Research Intern**, Helmholtz Center for Environmental Research Leipzig |
-|                                                         | Research Group: Science-Policy-Interface                                 |
+|                                                         | Research Group: Plant Physiology                              |
 
 <br>
 ### Education
@@ -102,19 +102,19 @@ toc: true
 
 |   &emsp;    &emsp;  &emsp;  &emsp;  &emsp;  &emsp; &emsp; &thinsp;| &emsp;                                                                                                       |
 | ------------ | ------------------------------------------------------------------------------------------------------------ |
-| since 2023   | **Big Data in Bioinformatics**                                                                               |
+| 2023 -- 2024  | **Big Data in Bioinformatics**                                                                               |
 |              | Supervision of student's projects                                                                            |
 |              | *Ruhr University Bochum, Bioinformatics*                                                                     |
 |              |                                                                                                              |
-| since 2022   | **Literature Seminar Bioinformatics**                                                                        |
+| 2022 -- 2024   | **Literature Seminar Bioinformatics**                                                                        |
 |              | Supervision of master students talks                                                                         |
 |              | *Ruhr University Bochum, Bioinformatics*                                                                     |
 |              |                                                                                                              |
-| since 2019   | **Module Bioinformatics**                                                                                    |
+| 2019 -- 2024  | **Module Bioinformatics**                                                                                    |
 |              | Supervision of course days 'RNA structure prediction' & 'Analysis of genome-wide RNA structure probing data' |
 |              | *Ruhr University Bochum, Bioinformatics*                                                                     |
 |              |                                                                                                              |
-| since 2019   | **Module Microbiology and Biotechnology**                                                                    |
+| 2019 -- 2023   | **Module Microbiology and Biotechnology**                                                                    |
 |              | Supervision of course part 'Bioinformatics'                                                                  |
 |              | *Ruhr University Bochum, Microbial Biology*                                                                  |
 |              |                                                                                                              |

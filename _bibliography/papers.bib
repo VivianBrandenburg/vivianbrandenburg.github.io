@@ -1,4 +1,53 @@
 
+@article{article,
+author = {Brandenburg, Vivian and Hack, Ben and Mosig, Axel},
+year = {2025},
+month = {08},
+pages = {},
+title = {A quartet-based approach for inferring phylogenetically informative features from genomic and phenomic data},
+volume = {27},
+journal = {Computational and Structural Biotechnology Journal},
+doi = {10.1016/j.csbj.2025.08.015},
+url = {https://doi.org/10.1016/j.csbj.2025.08.015},
+abstract = {Neural networks are widely used in bioinformatics to extract features from morphological, structural, and sequence data of different taxa. A key question is whether such features are compatible with a known phylogenetic tree describing the evolutionary relationships among the taxa. We address this question with a machine learning approach that takes taxon-specific data and a reference tree as input, and trains a neural network to produce a latent feature space whose pairwise distances are consistent with the tree topology. Our approach builds on the established role of quartets in distance-based phylogeny, leading to a quartet-based loss function for neural network training. In a proof-of-concept study using bacterial ribosomal RNA sequences, we show that the learned feature distances closely match the reference phylogeny. This framework can be applied to diverse biological data types, providing a principled way to incorporate phylogenetic constraints into neural network-based feature extraction.},
+selected={true},
+press = {https://news.rub.de/english/press-releases/2025-09-10-bioinformatics-equipping-artificial-intelligence-lense-evolution},
+}
+
+@article{article,
+author = {Guanzon, David and Pienkoß, Stephan and Brandenburg, Vivian and Röder, Jennifer and Scheller, Daniel and Dietze, Alisa and Wimbert, Andrea and Twittenhoff, Christian and Narberhaus, Franz},
+year = {2025},
+month = {01},
+pages = {},
+title = {Two temperature-responsive RNAs act in concert: the small RNA CyaR and the mRNA ompX},
+volume = {53},
+journal = {Nucleic acids research},
+doi = {10.1093/nar/gkaf041},
+url = {https://doi.org/10.1093/nar/gkaf041},
+abstract = {Bacterial pathogens, such as Yersinia pseudotuberculosis, encounter temperature fluctuations during host infection and upon return to the environment. These temperature shifts impact RNA structures globally. While previous transcriptome-wide studies have focused on RNA thermometers in the 5'-untranslated region of virulence-related messenger RNAs, our investigation revealed temperature-driven structural rearrangements in the small RNA CyaR (cyclic AMP-activated RNA). At 25°C, CyaR primarily adopts a conformation that occludes its seed region, but transitions to a liberated state at 37°C. By RNA sequencing and in-line probing experiments, we identified the Shine-Dalgarno sequence of ompX as a direct target of CyaR. Interestingly, the ompX transcript itself exhibits RNA thermometer-like properties, facilitating CyaR base pairing at elevated temperatures. This interaction impedes ribosome binding to ompX and accelerates degradation of the ompX transcript. Furthermore, we observed induced proteolytic turnover of the OmpX protein at higher temperatures. Collectively, our study uncovered multilayered post-transcriptional mechanisms governing ompX expression, resulting in lower OmpX levels at 37°C compared with 25°C.}
+}
+
+
+@article{lysr_schmidt_2025,
+    author = {Schmidt, Janka J and Brandenburg, Vivian B and Elders, Hannah and Shahzad, Saba and Schäkermann, Sina and Fiedler, Ronja and Knoke, Lisa R and Pfänder, Yvonne and Dietze, Pascal and Bille, Hannah and Gärtner, Bela and Albin, Lennart J and Leichert, Lars I and Bandow, Julia E and Hofmann, Eckhard and Narberhaus, Franz},
+    title = {Two redox-responsive LysR-type transcription factors control the oxidative stress response of Agrobacterium tumefaciens},
+    journal = {Nucleic Acids Research},
+    volume = {53},
+    number = {6},
+    pages = {gkaf267},
+    year = {2025},
+    month = {04},
+    abstract = {Pathogenic bacteria often encounter fluctuating reactive oxygen species (ROS) levels, particularly during host infection, necessitating robust redox-sensing mechanisms for survival. The LysR-type transcriptional regulator (LTTR) OxyR is a widely conserved bacterial thiol-based redox sensor. However, members of the Rhizobiales also encode LsrB, a second LTTR with potential redox-sensing function. This study explores the roles of OxyR and LsrB in the plant-pathogen Agrobacterium tumefaciens. Through single and combined deletions, we observed increased H2O2 sensitivity, underscoring their function in oxidative defense. Genome-wide transcriptome profiling under H2O2 exposure revealed that OxyR and LsrB co-regulate key antioxidant genes, including katG, encoding a bifunctional catalase/peroxidase. Agrobacterium tumefaciens LsrB possesses four cysteine residues potentially involved in redox sensing. To elucidate the structural basis for redox-sensing, we applied single-particle cryo-EM (cryogenic electron microscopy) to experimentally confirm an AlphaFold model of LsrB, identifying two proximal cysteine pairs. In vitro thiol-trapping coupled with mass spectrometry confirmed reversible thiol modifications of all four residues, suggesting a functional role in redox regulation. Collectively, these findings reveal that A. tumefaciens employs two cysteine-based redox sensing transcription factors, OxyR and LsrB, to withstand oxidative stress encountered in host and soil environments.},
+    issn = {1362-4962},
+    doi = {10.1093/nar/gkaf267},
+    url = {https://doi.org/10.1093/nar/gkaf267},
+    eprint = {https://academic.oup.com/nar/article-pdf/53/6/gkaf267/62884817/gkaf267.pdf},
+}
+
+
+
+
+
 @article{lysr_schmidt,
 author = {Schmidt, Janka J and Remme, Donata C L E and Eisfeld, Jessica and Brandenburg, Vivian B and Bille, Hannah and Narberhaus, Franz},
 title = {The LysR-type transcription factor LsrB regulates beta-lactam resistance in Agrobacterium tumefaciens},
@@ -15,18 +64,6 @@ abstract = {Agrobacterium tumefaciens is a plant pathogen, broadly known as the 
 
 
 
- 
-
-@article{quartet_learning,
-    author = {Brandenburg, Vivian B and Hack, Ben L and Mosig, Axel},
-    title = {A quartet-based approach for inferring phylogenetically informative features from genomic and phenomic data},
-    journal = {published with Doctoral Thesis, Ruhr University Bochum},
-    date = {2023},
-    abstract = { Evolutionary information is an important guide for uncovering biological mechanisms in structural biology as well as other fields of biology. Here, we present a neural network based approach that infers phylogenetically informative features in genotype or phenotype data by training a neural network in a way that the output features of the network match a presupposed reference phylogeny. Building on the well-established role of quartets in distance based phylogeny, our approach translates naturally to a quartet-based loss function for training neural networks. In a proof-of-concept study, we use quartet loss training to bacterial ribosomal RNA sequences and demonstrate that distances between the inferred features well reflect the reference phylogeny. Furthermore, we discuss how the approach can potentially be utilized to infer mechanisms in structural biology.},
-    doi = {10.13154/294-10571},
-    url = {https://doi.org/10.13154/294-10571}
-    
-}
 
 
 
@@ -55,7 +92,8 @@ abstract = {Agrobacterium tumefaciens is a plant pathogen, broadly known as the 
     abstract = {It is well-established that neural networks can predict or identify structural motifs of non-coding RNAs (ncRNAs). Yet, the neural network based identification of RNA structural motifs is limited by the availability of training data that are often insufficient for learning features of specific ncRNA families or structural motifs. Aiming to reliably identify intrinsic transcription terminators in bacteria, we introduce a novel pre-training approach that uses inverse folding to generate training data for predicting or identifying a specific family or structural motif of ncRNA. We assess the ability of neural networks to identify secondary structure by systematic in silico mutagenesis experiments. In a study to identify intrinsic transcription terminators as functionally well-understood RNA structural motifs, our inverse folding based pre-training approach significantly boosts the performance of neural network topologies, which outperform previous approaches to identify intrinsic transcription terminators. Inverse-folding based pre-training provides a simple, yet highly effective way to integrate the well-established thermodynamic energy model into deep neural networks for identifying ncRNA families or motifs. The pre-training technique is broadly applicable to a range of network topologies as well as different types of ncRNA families and motifs.},
     doi = {10.1371/journal.pcbi.1010240},
     url = {https://doi.org/10.1371/journal.pcbi.1010240},
-    press = {https://news.rub.de/english/press-releases/2022-07-08-bioinformatics-artificial-intelligence-folds-rna-molecules}
+    press = {https://news.rub.de/english/press-releases/2022-07-08-bioinformatics-artificial-intelligence-folds-rna-molecules},
+    selected={true}
 }
 
 
@@ -76,7 +114,8 @@ abstract = {Agrobacterium tumefaciens is a plant pathogen, broadly known as the 
     url = {https://doi.org/10.1093/nar/gkaa404},
     eprint = {https://academic.oup.com/nar/article-pdf/48/12/e71/33468432/gkaa404.pdf},
     personalnote = {*shared first authorship},
-    press = {https://www.sciencedaily.com/releases/2020/06/200617145959.htm}
+    press = {https://www.sciencedaily.com/releases/2020/06/200617145959.htm},
+    selected={true}
 }
 
 
@@ -93,39 +132,4 @@ url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/mmi.14695},
 eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/mmi.14695},
 abstract = {Small RNAs (sRNAs) are universal posttranscriptional regulators of gene expression and hundreds of sRNAs are frequently found in each and every bacterium. In order to coordinate cellular processes in response to ambient conditions, many sRNAs are differentially expressed. Here, we asked how these small regulators are regulated using Agrobacterium tumefaciens as a model system. Among the best-studied sRNAs in this plant pathogen are AbcR1 regulating numerous ABC transporters and PmaR, a regulator of peptidoglycan biosynthesis, motility, and ampicillin resistance. We report that the LysR-type regulator VtlR (also known as LsrB) controls expression of AbcR1 and PmaR. A vtlR/lsrB deletion strain showed growth defects, was sensitive to antibiotics and severely compromised in plant tumor formation. Transcriptome profiling by RNA-sequencing revealed more than 1,200 genes with altered expression in the mutant. Consistent with the function of VtlR/LsrB as regulator of AbcR1, many ABC transporter genes were affected. Interestingly, the transcription factor did not only control the expression of AbcR1 and PmaR. In the mutant, 102 sRNA genes were significantly up- or downregulated. Thus, our study uncovered VtlR/LsrB as the master regulator of numerous sRNAs. Thereby, the transcriptional regulator harnesses the regulatory power of sRNAs to orchestrate the expression of distinct sub-regulons.},
 date = {2021},
-}
-
-
-@article{master_brandenburg,
-  author  = {Brandenburg, Vivian B},
-  journal = {Master Thesis, Ruhr University Bochum},
-  title   = {Systematic Comparison of RNA Structure Probing Data},
-  date    = {2019},
-  abstract = {Many bacterial pathogens are known to adjust their life style upon being exposed to diverse
-environmental factors. Yersinia pseudotuberculosis, for example, regulates the transcription of
-more than 300 genes depending on temperature indicating the ingestion by its mammalian
-host. This adaptation is further complemented by several additional regulatory layers. RNA
-thermometers (RNAT), for example, regulate the expression of the pathogen’s major virulence
-regulator LcrF on translational level, as well as the translation of several other genes. To
-further investigate the influence of temperature on the structurome of Y. pseudotuberculosis in
-vivo as well as in vitro, lead-seq and PARS (parallel analysis of RNA structure) experiments
-were executed at both 25 °C and 37 °C. The chosen thermal conditions mimic the temperature
-in the external reservoir as well as the host’s body temperature. This study aimed at the
-analysis of the resulting data.
-To generate information about pairing states from structure probing experiments, reactivity
-scores were calculated from the resulting data. The reliability of information provided by
-these scores was improved by implementing novel steps in the calculation pipeline,
-accounting for lack of data as well as for the overall amplitude of background noise.
-Temperature-induced unfolding of RNAs was found in vivo as well as in vitro. Furthermore, a
-significant higher structuredness of untranslated regions at the 5ʹ-end of the transcript (5ʹ-
-UTR) compared to the coding sequence was identified in vivo. This difference was not
-detectable at 37 °C. A three-nucleotide structural pattern was found to be present in the coding
-region of messenger RNAs (mRNAs) at both temperatures, but not in the non-coding regions.
-The data resulting from in vivo structure probing were also used to improve RNA structure
-prediction. The application of this method to RNAs sampled at both temperatures suggested
-that mRNAs might be less thermo-stable than non-coding RNAs.
-To identify structural changes standing out against the general unfolding of RNA, a new
-method was developed. With this method, the accumulation of significant structure alteration
-in the 5ʹ-UTR of mRNAs in vivo was detected. The approach was applied to predict about 80
-new RNAT candidates, among which at least six represent verified RNATs.},
 }
