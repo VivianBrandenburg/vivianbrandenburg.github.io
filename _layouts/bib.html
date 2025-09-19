@@ -80,8 +80,11 @@
       {% if entry.month %}
         {{entry.month | capitalize}}
       {% endif %}
-    {% if entry.volume %}
-        &thinsp;{{entry.volume}}({{entry.number}})
+      {% if entry.volume %}
+        &thinsp;{{entry.volume}}
+      {% endif %}
+        {% if entry.number %}
+        ({{entry.number}})
       {% endif %}
       {% if entry.year %}
         {{entry.year}}

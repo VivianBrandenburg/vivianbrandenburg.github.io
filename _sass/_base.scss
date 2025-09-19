@@ -403,8 +403,17 @@ footer.sticky-bottom {
     }
   }
   .selected-publications-header {
-  margin-bottom: 4rem;
-}
+    margin-bottom: 4rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  /* Remove left indent for selected publications list */
+  &.selected-publications-list {
+    margin-top: 2rem;
+    margin-left: 0;
+    padding-left: 0;
+  }
 
   h2.year {
     color: var(--global-theme-color);
