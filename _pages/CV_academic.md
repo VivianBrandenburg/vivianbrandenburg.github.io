@@ -4,7 +4,7 @@ permalink: /CV_academic/
 title: Curriculum Vitae
 nav: false
 nav_order: 4
-years_talks: [2024, 2023, 2022, 2021, 2020]
+years_talks: [2024, 2023, 2021, 2020]
 years_posters: [2023, 2021, 2020]
 years: [2025, 2024, 2023, 2022, 2021, 2020, 2019]
 all_years: [2020,2021,2022,2023,2024,2025]
