@@ -8,11 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   
-  # address: >
-  #  <p>ProDi E3/233</p>
-  #  <p>Gesundheitscampus 4</p>
-  #  <p>44801 Bochum, Germany</p>
-
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
